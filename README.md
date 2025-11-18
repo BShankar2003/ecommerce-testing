@@ -113,7 +113,14 @@ Right-click → Run 'CheckoutTest'
 
 ## 📸 Demo Execution Screenshot
 
-*Add later when ready (optional)*
+### ✔ IntelliJ Test Results
+![Test Results](<img width="339" height="538" alt="image" src="https://github.com/user-attachments/assets/ceef599c-c96f-4897-b505-5f78710cbd6b" />
+)
+
+### ✔ Console Output
+![Console Output](<img width="1137" height="202" alt="image" src="https://github.com/user-attachments/assets/8f92b668-3ff4-4401-a7b7-f78e31d2282c" />
+)
+
 
 ---
 
