@@ -43,22 +43,37 @@ ecommerce-testing
 ├── src
 │   ├── main
 │   │   └── java
-│   │       └── pages
-│   │           ├── BaseClass.java
-│   │           ├── HomePage.java
-│   │           ├── SearchPage.java
-│   │           ├── ProductPage.java
-│   │           ├── CartPage.java
-│   │           ├── CheckoutPage.java
-│   │           └── OrderConfirmationPage.java
+│   │       ├── pages
+│   │       │   ├── AddToCartPage.java
+│   │       │   ├── CartPage.java
+│   │       │   ├── CheckoutPage.java
+│   │       │   ├── HomePage.java
+│   │       │   ├── LoginPage.java
+│   │       │   ├── OrderConfirmationPage.java
+│   │       │   ├── ProductPage.java
+│   │       │   └── SearchPage.java
+│   │       │
+│   │       └── utils
+│   │           ├── BrowserFactory.java
+│   │           └── ConfigReader.java
+│   │
+│   ├── resources
+│   │   └── config.properties
 │   │
 │   └── test
 │       └── java
+│           ├── base
+│           │   └── BaseClass.java
+│           │
 │           └── tests
-│               └── CheckoutTest.java
+│               ├── AddToCartTest.java
+│               ├── CheckoutTest.java
+│               ├── HomePageTest.java
+│               └── LoginTest.java
 │
 ├── pom.xml
 └── README.md
+
 ```
 
 ---
